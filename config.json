@@ -1,0 +1,32 @@
+{
+    "cmds":[
+        {
+            "path":"D:\\codehome\\pyhome\\ptest",
+            "cmd":"ping 127.0.0.1",
+            "name":"a1",
+            "state" : 0,
+            "runtype" : 1
+        },
+        {
+            "path":"D:\\codehome\\pyhome\\ptest",
+            "cmd":"python -u index.py",
+            "name":"a2",
+            "state" : 1,
+            "runtype" : 1
+        },
+        {
+            "path":"D:\\codehome\\pyhome\\ptest",
+            "cmd":"python -u t1.py",
+            "name":"a3",
+            "state" : 1,
+            "runtype" : 1
+        }
+        , {
+            "path":"D:\\codehome\\pyhome\\ptest",
+            "cmd":"ping 127.0.0.1",
+            "name":"a4",
+            "state" : 0,
+            "runtype" : 1
+        }
+    ]
+}
