@@ -41,6 +41,11 @@ config 配置说明
 ```
 
 
-src\github.com\jiegemena
+### 安装运行
+```
+md %GOPATH%\src\github.com\jiegemena
+cd %GOPATH%\src\github.com\jiegemena
 git clone https://github.com/jiegemena/gorunpy.git
-go build -o dkproxy.exe
+go build -o dkproxy.1.0.exe
+```
+
